@@ -1,0 +1,16 @@
+:root {
+    --blur: 1px;
+}
+
+input, label, img {
+    display: block;
+}
+
+h1 {
+    font-size: 40px;
+
+}
+
+img {
+    filter: blur(var(--blur));
+}
